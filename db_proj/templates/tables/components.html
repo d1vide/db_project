@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+  Компоненты
+{% endblock title %}
+{% block content %}
+  <h1 class="mb-3">Компоненты</h1>
+  {% include 'includes/form.html' %}
+  {% include 'includes/table_render.html' %}
+{% endblock content %}
